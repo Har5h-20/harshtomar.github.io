@@ -3,159 +3,922 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+          content="Harsh Tomar — Data & AI Engineer specializing in Data Engineering, AI/GenAI, SQL, ETL, RAG, LLMs and enterprise applications.">
+
+    <meta name="theme-color" content="#08090d">
+
+    <title>Harsh Tomar | Data & AI Engineer</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
-        <div class="left">
-            <a href="/">Harsh Tomar</a>
-        </div>
-        <div class="right">
-            <a href="https://github.com/Har5h-20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i><span>Github</span></a>
-            <a href="https://in.linkedin.com/in/harsh-tomar-6a17b5229" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
-            <a href="mailto:ht353@snu.edu.in"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
-        </div>
+<!-- =========================
+     BACKGROUND
+========================= -->
+
+<div class="background-grid"></div>
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar">
+
+    <a href="#" class="logo">
+        HT<span>.</span>
+    </a>
+
+    <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
     </nav>
 
-    <main>
-        <!-- SECTION 1: HERO -->
-        <section class="hero-section">
-            <div class="text">
-                <h2>Hi, I'm Harsh &#128075;</h2>
-                <p>Welcome to my portfolio website! I am currently a final year student with a passion for technology and a diverse skill set. During my college, I have equipped myself with various skills and made some projects on each skill set. In this portfolio website, you will find all the information about me and my projects. Feel free to reach out to me for any queries or collaborations.</p>
-                <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
-                    </a>
-                    <a href="#projects">
-                        <i class="fa-solid fa-pen"></i>
-                        <span>Projects</span>
-                    </a>
-                    <a href="#contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Contact</span>
-                    </a> 
-                </div>
-            </div>
-            <div class="headshot">
-                <img src="harsh.jpeg" alt="Harsh Tomar">
-            </div>
-        </section>
+    <div class="nav-actions">
 
-        <!-- SECTION 2: Skills -->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="text">
-                Here are my key skills:<br>
-                Web Development: HTML, CSS, JavaScript,<br>
-                Machine Learning: NLP, Python (NumPy, Pandas).<br>
-                Additional Skills: SQL, Java, Data Structures & Algorithms (DSA), Tableau.
-            </div>
-            <div class="cells">
-                <div class="cell">
-                    <img src="images/html-logo.webp" alt="HTML Logo">
-                    <span>HTML</span>
-                </div>
-                <div class="cell">
-                    <img src="images/css-logo.webp" alt="CSS Logo">
-                    <span>CSS</span>
-                </div>
-                <div class="cell">
-                    <img src="images/javascript-logo.webp" alt="JS Logo">
-                    <span>JavaScript</span>
-                </div>
-                <div class="cell">
-                    <img src="images/react-logo.webp" alt="React logo">
-                    <span>React.js</span>
-                </div>
-                <div class="cell">
-                    <img src="images/java-logo.webp" alt="Java logo">
-                    <span>Java</span>
-                </div>
-                <div class="cell">
-                    <img src="images/python-logo.webp" alt="Python logo">
-                    <span>Python</span>
-                </div>
-                <div class="cell">
-                    <img src="images/SQL-logo.jpeg" alt="SQL logo">
-                    <span>SQL</span>
-                </div>
-                <div class="cell">
-                    <img src="images/tableau-logo.webp" alt="Tableau logo">
-                    <span>Tableau</span>
-                </div>
-            </div>
-        </section>
+        <a
+            href="https://github.com/Har5h-20"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            aria-label="GitHub"
+        >
+            <i class="fa-brands fa-github"></i>
+        </a>
 
-        <!-- SECTION 3: Projects -->
-        <section id="projects" class="projects-section">
-            <h2>Projects</h2>
-            <div class="text">
-                Here are some of the projects I have worked on:
-            </div>
-            <div class="cells">
-                <div class="cell">
-                    <a href="https://github.com/Har5h-20/Flipkart-Clone">
-                        <img src="images/flipkart-logo.webp" alt="flipkart-logo">
-                        <span>flipkart clone</span>
-                    </a>
-                </div>
-                
-                <div class="cell">
-                    <a href="https://github.com/Har5h-20/Silver-Price-Predictor">
-                        <img src="images/silver-logo.webp" alt="Silver-logo">
-                        <span>Silver-Price-Predictor</span>
-                    </a>
-                </div>
+        <a
+            href="https://www.linkedin.com/in/harsh-tomar-6a17b5229/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            aria-label="LinkedIn"
+        >
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
 
-                <div class="cell">
-                    <a href="https://har5h-20.github.io/jacketstore.github.io/">
-                        <img src="images/logo.png" alt="jacketstore">
-                        <span>Jacket Store</span>
-                    </a>
-                </div>
-                <div class="cell">
-                    <a href="https://github.com/Har5h-20/CryptocurrencyScanner">
-                        <img src="crypto.png" alt="CryptocurrencyScanner">
-                        <span>Cryptocurrency Scanner </span>
-                    </a>
-                    
-                </div>
-                <!-- Add more project cells as needed -->
-            </div>
-        </section>
-<!-- SECTION 4: Contact -->
-<section id="contact" class="contact-section">
-    <h2>Contact</h2>
-    <div class="text">
-        Feel free to reach out to me via email or phone:
+        <a href="#contact" class="contact-btn">
+            Let's Talk
+        </a>
+
     </div>
-    <div class="contact-info">
-        <div class="info-item">
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:ht353@snu.edu.in">ht353@snu.edu.in</a>
+
+</header>
+
+
+<main>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="availability">
+            <span class="status-dot"></span>
+            Building data & AI solutions
         </div>
-        <div class="info-item">
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:+917017652849">7017652849</a>
+
+        <p class="eyebrow">
+            DATA ENGINEERING · AI · SOFTWARE
+        </p>
+
+        <h1>
+            Harsh
+            <span>Tomar.</span>
+        </h1>
+
+        <h2>
+            Data & AI Engineer
+        </h2>
+
+        <p class="hero-description">
+            I build scalable data pipelines, enterprise reporting systems
+            and AI-powered applications — turning complex data into
+            useful products and insights.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="primary-btn">
+                View my work
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="CV_Harsh.pdf" class="secondary-btn" target="_blank">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Download CV
+            </a>
+
         </div>
-        <div class="info-item">
-            <i class="fa-solid fa-file"></i>
-            <a href="CV_Harsh.pdf">My CV</a>
+
+        <div class="hero-stack">
+
+            <span>Python</span>
+            <span>SQL</span>
+            <span>SSIS</span>
+            <span>LLMs</span>
+            <span>RAG</span>
+            <span>Java</span>
+            <span>AWS</span>
+
         </div>
+
     </div>
+
+
+    <!-- PROFILE CARD -->
+
+    <div class="hero-visual">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+
+            <div class="card-top">
+                <span>PROFILE</span>
+                <span class="live-dot"></span>
+            </div>
+
+            <div class="profile-image-wrapper">
+
+                <img
+                    src="harsh.jpeg"
+                    alt="Harsh Tomar"
+                    class="profile-image"
+                >
+
+            </div>
+
+            <h3>Harsh Tomar</h3>
+
+            <p>
+                Associate Consultant
+            </p>
+
+            <div class="profile-location">
+                <i class="fa-solid fa-location-dot"></i>
+                Delhi, India
+            </div>
+
+            <div class="profile-tags">
+                <span>Data</span>
+                <span>AI</span>
+                <span>Cloud</span>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
 
+<!-- =========================
+     ABOUT
+========================= -->
 
-    </main>
+<section id="about" class="section about-section">
+
+    <div class="section-heading">
+
+        <p class="section-number">01</p>
+
+        <div>
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>Engineering with purpose.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <div class="about-main">
+
+            <p class="large-text">
+                I am a Computer Science Engineer focused on
+                <strong>data engineering, AI and enterprise software.</strong>
+            </p>
+
+            <p>
+                My work spans ETL pipelines, SQL optimization,
+                enterprise reporting, backend APIs and modern
+                Generative AI systems.
+            </p>
+
+            <p>
+                Currently, I work as an Associate Consultant at
+                Oracle Financial Services Software, where I work
+                with large-scale financial data and enterprise
+                reporting systems.
+            </p>
+
+        </div>
+
+
+        <div class="about-stats">
+
+            <div class="stat">
+                <strong>35%</strong>
+                <span>Report performance improvement</span>
+            </div>
+
+            <div class="stat">
+                <strong>20+</strong>
+                <span>Cognos reports designed</span>
+            </div>
+
+            <div class="stat">
+                <strong>0.9772</strong>
+                <span>Peak R² in deep learning project</span>
+            </div>
+
+            <div class="stat">
+                <strong>2025</strong>
+                <span>Started professional career</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section id="experience" class="section">
+
+    <div class="section-heading">
+
+        <p class="section-number">02</p>
+
+        <div>
+            <p class="eyebrow">EXPERIENCE</p>
+            <h2>Where I've worked.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="experience-card">
+
+        <div class="experience-header">
+
+            <div>
+
+                <p class="experience-date">
+                    JUNE 2025 — PRESENT
+                </p>
+
+                <h3>
+                    Associate Consultant
+                </h3>
+
+                <p class="company">
+                    Oracle Financial Services Software
+                </p>
+
+            </div>
+
+            <div class="company-badge">
+                OFSS
+            </div>
+
+        </div>
+
+
+        <div class="experience-content">
+
+            <div class="experience-column">
+
+                <span class="experience-label">
+                    DATA ENGINEERING
+                </span>
+
+                <p>
+                    Developed and maintained enterprise ETL pipelines
+                    using SQL Server Integration Services (SSIS),
+                    processing millions of financial records.
+                </p>
+
+                <p>
+                    Optimized SQL queries, stored procedures,
+                    indexing strategies and execution plans,
+                    improving report performance by approximately 35%.
+                </p>
+
+            </div>
+
+
+            <div class="experience-column">
+
+                <span class="experience-label">
+                    ENTERPRISE APPLICATIONS
+                </span>
+
+                <p>
+                    Built front-end reporting solutions using Java
+                    and Angular, integrating enterprise backend APIs
+                    for real-time data visualization.
+                </p>
+
+                <p>
+                    Designed and deployed 20+ IBM Cognos reports
+                    supporting operational reporting workflows.
+                </p>
+
+            </div>
+
+
+            <div class="experience-column">
+
+                <span class="experience-label">
+                    SYSTEM DESIGN
+                </span>
+
+                <p>
+                    Translated Business Requirements Documents into
+                    technical architecture specifications.
+                </p>
+
+                <p>
+                    Created technical design documents from scratch
+                    covering architecture, data flows and implementation
+                    details.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <p class="section-number">03</p>
+
+        <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Things I've built.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card featured">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <div class="project-icon ai-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <p class="project-category">
+                AI · GENAI · RAG
+            </p>
+
+            <h3>
+                Enterprise Knowledge Assistant
+            </h3>
+
+            <p>
+                An AI-powered enterprise knowledge assistant capable
+                of answering questions from PDFs, Word, Excel and
+                internal documentation using Retrieval-Augmented
+                Generation.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>LangChain</span>
+                <span>OpenAI API</span>
+                <span>FastAPI</span>
+                <span>ChromaDB</span>
+                <span>FAISS</span>
+                <span>Docker</span>
+            </div>
+
+            <div class="project-footer">
+
+                <span>
+                    Semantic Search · Vector Retrieval
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <div class="project-icon data-icon">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <p class="project-category">
+                MACHINE LEARNING · DEEP LEARNING
+            </p>
+
+            <h3>
+                Groundwater Level Prediction
+            </h3>
+
+            <p>
+                Deep learning system for predicting groundwater levels
+                using environmental, population, rainfall, usage and
+                soil-related features.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>Keras</span>
+                <span>LSTM</span>
+                <span>GRU</span>
+                <span>RNN</span>
+            </div>
+
+            <div class="project-footer">
+
+                <span>
+                    R² = 0.9772
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                03
+            </div>
+
+            <div class="project-icon web-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <p class="project-category">
+                WEB DEVELOPMENT
+            </p>
+
+            <h3>
+                Flipkart Clone
+            </h3>
+
+            <p>
+                E-commerce interface built as a frontend development
+                project with a focus on layout, product presentation
+                and responsive design.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-footer">
+
+                <a
+                    href="https://github.com/Har5h-20/Flipkart-Clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View on GitHub
+                </a>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div class="project-icon crypto-icon">
+                <i class="fa-brands fa-bitcoin"></i>
+            </div>
+
+            <p class="project-category">
+                DATA · CRYPTO
+            </p>
+
+            <h3>
+                Cryptocurrency Scanner
+            </h3>
+
+            <p>
+                Cryptocurrency analysis project focused on retrieving,
+                processing and presenting market-related information.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Data Analysis</span>
+                <span>APIs</span>
+            </div>
+
+            <div class="project-footer">
+
+                <a
+                    href="https://github.com/Har5h-20/CryptocurrencyScanner"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View on GitHub
+                </a>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="section-heading">
+
+        <p class="section-number">04</p>
+
+        <div>
+            <p class="eyebrow">TECH STACK</p>
+            <h2>Tools I work with.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="skills-container">
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-title">
+                <i class="fa-solid fa-database"></i>
+                <h3>Data Engineering</h3>
+            </div>
+
+            <div class="skill-list">
+
+                <span>SQL Server</span>
+                <span>SSIS</span>
+                <span>ETL Pipelines</span>
+                <span>Data Warehousing</span>
+                <span>Data Modeling</span>
+                <span>Query Optimization</span>
+                <span>Stored Procedures</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-title">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>AI & GenAI</h3>
+            </div>
+
+            <div class="skill-list">
+
+                <span>Generative AI</span>
+                <span>LLMs</span>
+                <span>RAG</span>
+                <span>LangChain</span>
+                <span>Prompt Engineering</span>
+                <span>OpenAI API</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-title">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h3>BI & Analytics</h3>
+            </div>
+
+            <div class="skill-list">
+
+                <span>IBM Cognos</span>
+                <span>Power BI</span>
+                <span>Excel</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-title">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud & Development</h3>
+            </div>
+
+            <div class="skill-list">
+
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>FastAPI</span>
+                <span>REST APIs</span>
+                <span>Java</span>
+                <span>Python</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EDUCATION
+========================= -->
+
+<section class="section education-section">
+
+    <div class="section-heading">
+
+        <p class="section-number">05</p>
+
+        <div>
+            <p class="eyebrow">EDUCATION</p>
+            <h2>Academic background.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="education-card">
+
+        <div>
+
+            <p class="education-date">
+                2021 — 2025
+            </p>
+
+            <h3>
+                Bachelor of Technology
+            </h3>
+
+            <p>
+                Computer Science Engineering
+            </p>
+
+            <span>
+                Shiv Nadar University · Greater Noida
+            </span>
+
+        </div>
+
+        <div class="cgpa">
+            <small>CGPA</small>
+            <strong>7.52</strong>
+            <span>/10</span>
+        </div>
+
+    </div>
+
+
+    <div class="certification">
+
+        <i class="fa-solid fa-certificate"></i>
+
+        <div>
+            <small>CERTIFICATION</small>
+            <strong>AWS Certified Cloud Practitioner</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-content">
+
+        <p class="eyebrow">
+            HAVE A PROJECT IN MIND?
+        </p>
+
+        <h2>
+            Let's build something
+            <span>great.</span>
+        </h2>
+
+        <p>
+            Whether it's a data platform, AI application,
+            enterprise solution or something completely new,
+            I'd love to hear about it.
+        </p>
+
+        <a
+            href="mailto:harshtomar223@gmail.com"
+            class="email-button"
+        >
+            harshtomar223@gmail.com
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-left">
+        <strong>Harsh Tomar<span>.</span></strong>
+        <p>Data · AI · Engineering</p>
+    </div>
+
+    <div class="footer-links">
+
+        <a
+            href="https://github.com/Har5h-20"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+
+        <a
+            href="https://www.linkedin.com/in/harsh-tomar-6a17b5229/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            LinkedIn
+        </a>
+
+        <a href="mailto:harshtomar223@gmail.com">
+            Email
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Harsh Tomar
+    </p>
+
+</footer>
+
+
+<script>
+
+    /* =========================
+       SCROLL REVEAL
+    ========================= */
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+
+    document
+        .querySelectorAll(
+            ".section, .project-card, .experience-card, .skill-group"
+        )
+        .forEach((element) => {
+
+            element.classList.add("reveal");
+
+            observer.observe(element);
+
+        });
+
+
+    /* =========================
+       NAVBAR SCROLL EFFECT
+    ========================= */
+
+    const navbar = document.querySelector(".navbar");
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 40) {
+
+            navbar.classList.add("scrolled");
+
+        } else {
+
+            navbar.classList.remove("scrolled");
+
+        }
+
+    });
+
+</script>
+
 </body>
 </html>
